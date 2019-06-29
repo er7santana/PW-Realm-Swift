@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD497B7556468A2FEC046452 /* Pods_Hello_World.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19606A8AC385C6F685CD913 /* Pods_Hello_World.framework */; };
+		C99925CF22C72D26004D24A3 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99925CE22C72D26004D24A3 /* Dog.swift */; };
 		C9EA280622C706BB0014C6B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA280522C706BB0014C6B7 /* AppDelegate.swift */; };
-		C9EA280822C706BB0014C6B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA280722C706BB0014C6B7 /* ViewController.swift */; };
+		C9EA280822C706BB0014C6B7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA280722C706BB0014C6B7 /* FirstViewController.swift */; };
 		C9EA280B22C706BB0014C6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EA280922C706BB0014C6B7 /* Main.storyboard */; };
 		C9EA280D22C706BB0014C6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EA280C22C706BB0014C6B7 /* Assets.xcassets */; };
 		C9EA281022C706BB0014C6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EA280E22C706BB0014C6B7 /* LaunchScreen.storyboard */; };
+		C9EA281822C707760014C6B7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA281722C707760014C6B7 /* SecondViewController.swift */; };
+		C9EA281B22C70EC70014C6B7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA281A22C70EC70014C6B7 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78FD09B09D3D6ED3545A42ED /* Pods-Hello World.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello World.release.xcconfig"; path = "Target Support Files/Pods-Hello World/Pods-Hello World.release.xcconfig"; sourceTree = "<group>"; };
+		A19606A8AC385C6F685CD913 /* Pods_Hello_World.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_World.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B3FBBBA7D6EE27B8E19CC4 /* Pods-Hello World.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello World.debug.xcconfig"; path = "Target Support Files/Pods-Hello World/Pods-Hello World.debug.xcconfig"; sourceTree = "<group>"; };
+		C99925CE22C72D26004D24A3 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		C9EA280222C706BB0014C6B7 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EA280522C706BB0014C6B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9EA280722C706BB0014C6B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9EA280722C706BB0014C6B7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C9EA280A22C706BB0014C6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9EA280C22C706BB0014C6B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9EA280F22C706BB0014C6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9EA281122C706BB0014C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EA281722C707760014C6B7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C9EA281A22C70EC70014C6B7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD497B7556468A2FEC046452 /* Pods_Hello_World.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44CF030BA8B56742810B860F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6B3FBBBA7D6EE27B8E19CC4 /* Pods-Hello World.debug.xcconfig */,
+				78FD09B09D3D6ED3545A42ED /* Pods-Hello World.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C99925CD22C72D0C004D24A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C99925CE22C72D26004D24A3 /* Dog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C9EA27F922C706BB0014C6B7 = {
 			isa = PBXGroup;
 			children = (
 				C9EA280422C706BB0014C6B7 /* Hello World */,
 				C9EA280322C706BB0014C6B7 /* Products */,
+				44CF030BA8B56742810B860F /* Pods */,
+				DCDB43D63E4ECD1743DB85C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,33 @@
 		C9EA280422C706BB0014C6B7 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				C99925CD22C72D0C004D24A3 /* Models */,
+				C9EA281922C7081C0014C6B7 /* ViewControllers */,
 				C9EA280522C706BB0014C6B7 /* AppDelegate.swift */,
-				C9EA280722C706BB0014C6B7 /* ViewController.swift */,
 				C9EA280922C706BB0014C6B7 /* Main.storyboard */,
 				C9EA280C22C706BB0014C6B7 /* Assets.xcassets */,
 				C9EA280E22C706BB0014C6B7 /* LaunchScreen.storyboard */,
 				C9EA281122C706BB0014C6B7 /* Info.plist */,
 			);
 			path = "Hello World";
+			sourceTree = "<group>";
+		};
+		C9EA281922C7081C0014C6B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9EA280722C706BB0014C6B7 /* FirstViewController.swift */,
+				C9EA281722C707760014C6B7 /* SecondViewController.swift */,
+				C9EA281A22C70EC70014C6B7 /* ThirdViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DCDB43D63E4ECD1743DB85C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19606A8AC385C6F685CD913 /* Pods_Hello_World.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9EA281422C706BB0014C6B7 /* Build configuration list for PBXNativeTarget "Hello World" */;
 			buildPhases = (
+				91D1C195CB6BF35AD0F93383 /* [CP] Check Pods Manifest.lock */,
 				C9EA27FE22C706BB0014C6B7 /* Sources */,
 				C9EA27FF22C706BB0014C6B7 /* Frameworks */,
 				C9EA280022C706BB0014C6B7 /* Resources */,
+				1079F0EB53524A4F8CD885DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,12 +182,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1079F0EB53524A4F8CD885DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hello World/Pods-Hello World-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hello World/Pods-Hello World-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D1C195CB6BF35AD0F93383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello World-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9EA27FE22C706BB0014C6B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9EA280822C706BB0014C6B7 /* ViewController.swift in Sources */,
+				C9EA281822C707760014C6B7 /* SecondViewController.swift in Sources */,
+				C9EA280822C706BB0014C6B7 /* FirstViewController.swift in Sources */,
+				C9EA281B22C70EC70014C6B7 /* ThirdViewController.swift in Sources */,
+				C99925CF22C72D26004D24A3 /* Dog.swift in Sources */,
 				C9EA280622C706BB0014C6B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +367,7 @@
 		};
 		C9EA281522C706BB0014C6B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B3FBBBA7D6EE27B8E19CC4 /* Pods-Hello World.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +383,7 @@
 		};
 		C9EA281622C706BB0014C6B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FD09B09D3D6ED3545A42ED /* Pods-Hello World.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
